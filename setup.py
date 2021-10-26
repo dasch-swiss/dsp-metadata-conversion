@@ -22,11 +22,17 @@ setup(
     ],
     python_requires=">=3.9.0",
     install_requires=[
+        "isodate==0.6.0",
+        "owlrl==5.2.3",
+        "prettytable==2.2.1; python_version >= '3.6'",
+        "pyparsing==3.0.1; python_version >= '3.6'",
+        "pyshacl==0.17.2",
+        "rdflib==6.0.2",
+        "six==1.16.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+        "wcwidth==0.2.5",
     ],
     entry_points={
-        "console_scripts": [
-            "convert-metadata=src.converter.converter:cli",
-        ],
+        "console_scripts": ["convert-metadata=src.converter.converter:cli",],
     },
     include_package_data=True,
     zip_safe=False,
