@@ -32,7 +32,7 @@ setup(
         "wcwidth==0.2.5",
     ],
     entry_points={
-        "console_scripts": ["convert-metadata=src.converter.converter:cli", ],
+        "console_scripts": ["convert-metadata=converter.converter:cli", ],
     },
     include_package_data=True,
     zip_safe=False,
