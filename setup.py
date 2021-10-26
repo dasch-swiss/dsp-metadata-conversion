@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="dsp-metadata-gui",
+    name="dsp-metadata-conversion",
     version="0.0.0",
-    description="Python GUI tool to collect metadata for DSP projects.",
+    description="ython CLI for converting project metadata from JSON to RDF",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/dasch-swiss/dsp-metadata-conversion",
@@ -32,7 +32,7 @@ setup(
         "wcwidth==0.2.5",
     ],
     entry_points={
-        "console_scripts": ["convert-metadata=src.converter.converter:cli",],
+        "console_scripts": ["convert-metadata=src.converter.converter:cli", ],
     },
     include_package_data=True,
     zip_safe=False,
