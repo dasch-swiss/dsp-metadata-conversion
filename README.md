@@ -15,7 +15,7 @@ pip install dsp-metadata-conversion
 
 After installing using pip, a command line entrypoint is installed in your local python environment.
 
-> If using a virtual environment, the entry point will onl be available when the environment is activated.
+> If using a virtual environment, the entry point will only be available when the environment is activated.
 
 The entry point can be called with the command `convert-metadata`. This takes a required positional argument for the path of the file/directory to be converted. An optional flag `-d` marks the path as a directory which will be used for bulk conversion.
 
