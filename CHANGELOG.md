@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://www.github.com/dasch-swiss/dsp-metadata-conversion/compare/v1.0.1...v1.0.2) (2021-10-28)
+
+
+### Maintenance
+
+* fix setup.py (DEV-171) ([#6](https://www.github.com/dasch-swiss/dsp-metadata-conversion/issues/6)) ([51f157c](https://www.github.com/dasch-swiss/dsp-metadata-conversion/commit/51f157ce261fcc5016ce8cb5f2f9856f11f22380))
+
 ### [1.0.1](https://www.github.com/dasch-swiss/dsp-metadata-conversion/compare/v1.0.0...v1.0.1) (2021-10-28)
 
 
