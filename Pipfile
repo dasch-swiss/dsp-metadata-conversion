@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+rdflib = "*"
+pyshacl = "*"
+
+[dev-packages]
+autopep8 = "*"
+mypy = "*"
+pipenv-setup = "*"
+chardet = "*"
+
+[requires]
+python_version = "3.9"
