@@ -494,7 +494,7 @@ def cli():
     parser = argparse.ArgumentParser(description='Convert a JSON metadata file to RDF')
     parser.add_argument('path', help='path of the JSON file or folder to be converted')
     parser.add_argument('-d', '--dir', action="store_true",
-                        help='indicates that the selected path is a directory, not a file, and should be used for bulk conversion')
+                        help='indicates that the given path is a directory, not a file, and should be used for bulk conversion')
     args = parser.parse_args()
     f = args.path
     isDir = args.dir

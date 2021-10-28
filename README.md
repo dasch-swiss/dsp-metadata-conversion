@@ -19,25 +19,11 @@ After installing using pip, a command line entrypoint is installed in your local
 
 The entry point can be called with the command `convert-metadata`. This takes a required positional argument for the path of the file/directory to be converted. An optional flag `-d` marks the path as a directory which will be used for bulk conversion.
 
-The script will read one or many JSON files, as specified in the path passed as the first argument, and convert it to three files: JSON-LD, Turtle and RDF-XML. These will be saved in the same directory, as the JSON file is located. If the files already exist, they will be overwritten.
+The script will read one or many JSON files, as specified in the path passed as the first argument, and convert it to three files: JSON-LD, Turtle and RDF-XML. These will be saved in the same directory as the JSON file is located. If the files already exist, they will be overwritten.
 
 #### Help
 
-Calling `convert-metadata -h` will return the following:
-
-```bash
-usage: convert-metadata [-h] [-d] path
-
-Convert a JSON metadata file to RDF
-
-positional arguments:
-  path        path of the JSON file or folder to be converted
-
-optional arguments:
-  -h, --help  show this help message and exit
-  -d, --dir   indicates that the selected path is a directory, not a file, and should be
-              used for bulk conversion
-```
+Calling `convert-metadata -h` will show the program's help menu.
 
 #### Example
 
