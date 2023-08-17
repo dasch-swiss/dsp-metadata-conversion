@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="dsp-metadata-conversion",
-    version="1.0.2",
+    version="1.0.3",
     description="ython CLI for converting project metadata from JSON to RDF",
     long_description=long_description,
     long_description_content_type="text/markdown",
