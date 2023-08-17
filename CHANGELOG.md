@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.0.3](https://www.github.com/dasch-swiss/dsp-metadata-conversion/compare/v1.0.2...v1.0.3) (2023-08-17)
+
+
+### Maintenance
+
+* **deps-dev:** bump certifi from 2022.12.7 to 2023.7.22 ([#11](https://www.github.com/dasch-swiss/dsp-metadata-conversion/issues/11)) ([66dd0f2](https://www.github.com/dasch-swiss/dsp-metadata-conversion/commit/66dd0f2beca34292e21b988c161a0af4b617d933))
+* **deps:** bump wheel from 0.37.0 to 0.38.1 ([#9](https://www.github.com/dasch-swiss/dsp-metadata-conversion/issues/9)) ([89d5bde](https://www.github.com/dasch-swiss/dsp-metadata-conversion/commit/89d5bde2a9685b139b48b9e61ae64765f555dc28))
+
 ### [1.0.2](https://www.github.com/dasch-swiss/dsp-metadata-conversion/compare/v1.0.1...v1.0.2) (2021-10-28)
 
 
